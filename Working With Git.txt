@@ -1,0 +1,15 @@
+After installing git and opening up Git Bash: git config --global user.email "pratyus.mohapatra31@gmail.com"
+
+To start a new repository or "project": git init 
+To add files to the git repository: git add FILENAME 
+To add folders to the git repository git add FOLDERNAME
+To add everything in "MyFirstGitProject" to the git repository: git add *
+To see a list of files/folders in the git repository: git ls-files
+To remove a file that has not been committed (ex. if you get an error with git rm): git rm --cached FILENAME/FOLDERNAME
+To commit a file: git commit -m "This is a file" FILENAME
+To remove a file that has been committed: git rm FILENAME
+To see git commit history: git log
+To add your GitHub repository onto Git, first make a Github repository, and
+copy the link and paste this into the command line: git remote add origin https://github.com/PratyusM/First-Git-Project.git
+To push your git repository to GitHub repository: git push -u origin master
+To remove a remote repository from git: git remote rm origin 

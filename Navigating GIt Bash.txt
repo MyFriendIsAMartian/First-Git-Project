@@ -1,0 +1,19 @@
+-This PC
+    -Documents
+       -Photos
+          -October
+	  -November
+       -Photos2
+    -Downloads
+
+
+How to Navigate:
+
+To go down the tree: cd 
+To go down the tree into folder: cd Documents
+To go down the tree into a folder you do not know the name: cd D and then press tab one or more times
+To go down the tree into multiple folders: cd Documents/Photos
+
+To go up the tree one folder: cd ../
+To gup the tree multiple folders: cd ../../
+To go up the tree specific folder, for example say we are in October: cd ../November
